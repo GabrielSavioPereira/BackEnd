@@ -1,19 +1,25 @@
 import javax.print.attribute.standard.Media;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        //exercicio01();
-        //  System.out.println("");
-        //exercicio02();
-        //System.out.println("");
-        //exercicio03();
-        // exercicio04();
-        // exercicio05();
-       // exercicio06();
-      //  exercicio07();
-          exercicio08();
+        exercicio01();
+        System.out.println("");
+        exercicio02();
+        System.out.println("");
+        exercicio03();
+        System.out.println("");
+        exercicio04();
+        System.out.println("");
+        exercicio05();
+        System.out.println("");
+        exercicio06();
+        System.out.println("");
+        exercicio07();
+        System.out.println("");
+        exercicio08();
 
     }
 
@@ -93,11 +99,6 @@ public class Main {
         }
         System.out.println("Media: " + media);
     }
-//    public float calcularIMC(float peso, float altura,float imc) {
-//        imc = peso / (altura * altura);
-//        return imc;
-//    }
-
     static void exercicio07() {
         Float peso = 70.0F;
         Float altura = 1.75F;
